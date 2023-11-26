@@ -1,0 +1,148 @@
+header{
+  position: fixed;
+  width:100%;
+  z-index: 99;
+  top:0;
+  border-bottom: 1px solid #acacac;
+  background-color: #c0bfbf;
+  
+}
+.list-unstyled{
+  margin:0;
+}
+header .container {
+  height: 70px;
+}
+.container {
+  width: 60%;
+}
+header .logo {
+  font-size: 26px;
+  color: #000;
+  font-weight: bold;
+}
+
+header .container .row {
+  align-items: center;
+  height: 100%;
+}
+
+header .linkes {
+  text-align: right;
+}
+
+header .linkes li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+}
+section .row:first-child{
+  margin-top: 50px;
+}
+section .row {
+  margin: 20px 0;
+}
+
+.info {
+  padding: 59px;
+}
+
+.info h2 {
+  margin: 41px 0;
+  font-size: 35px;
+}
+
+.info .desc {
+  /* width: 70%; */
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.add-to-cart {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.add-to-cart .price {
+  font-weight: bold;
+  font-size: 19px;
+}
+
+section .item .image {
+  border-radius: 8px;
+  transform: perspective(650px) rotate(5deg) rotateX(-2.5deg) rotateY(-15deg)
+    scale(0.8) translateX(30px);
+  box-shadow: 30px 30px 50px rgba(0, 0, 0, 0.1);
+}
+
+.item .image.left {
+  margin-left: auto;
+  transform: perspective(650px) rotate(-5deg) rotateX(2.5deg) rotateY(15deg)
+    scale(0.8) translateX(-30px);
+  box-shadow: -30px 30px 50px rgba(0, 0, 0, 0.1);
+}
+header li {
+  position: relative;
+}
+
+.shopping-cart-icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #000;
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 20px;
+  
+  font-size: 15px;
+}
+
+.add-cart-items {
+  position: fixed;
+  width: 380px;
+  right: -380px;
+  top: 70px;
+  background-color: #f4f4f4;
+  transition: 0.5s;
+}
+.add-cart-items h2{
+  text-align: center;
+  margin:20px 0
+}
+
+.add-cart-items .item {
+  display: flex;
+  justify-content: space-between;
+  margin:20px 0
+}
+
+
+.add-cart-items .item .item-title{
+  width:250px;
+}
+
+.add-cart-items img {
+  width: 70px;
+  height: 70px;
+  margin-left:30px
+}
+
+.add-cart-items .total{
+  display: flex;
+  justify-content: center;
+  margin:30px;
+  padding:20px;
+  background-color: #0a58ca;
+  color:#fff;
+  cursor: pointer;
+  
+}
